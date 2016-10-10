@@ -1,0 +1,5 @@
+What if the text on a figure did not show?
+
+~/Diman$ pdf2ps diman.pdf
+~/Diman$ ps2pdf13 -dPDFSETTINGS=/prepress diman.ps diman.pdf
+~/Diman$ pdffonts diman.pdf
